@@ -1,2 +1,2 @@
-# Tutorial
+# Guitar kings
 Tutorial
