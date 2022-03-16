@@ -15,11 +15,38 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="guitars.html">Guitars</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html" class="current">Contact</a></li>
             </ul>
         </nav>    
     </header>
-        <h1>Contact</h1>
+    <h1>Contact</h1>
+    <form>
+        <section class="fullname">
+            <label for="fullname">Full name:</label>
+            <input type="text" name="name" id="name">
+        </section>
+        <section class="email">
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email">
+        </section>
+        <section class="guitar-choice">
+            <label for="guitar-choice">Guitars:</label>
+            <select name="guitar" id="guitar">
+                <option value="adirondack-red">Adirondack-Red</option>
+                <option value="adirondack-green">Adirondack-Green</option>
+                <option value="adirondack-blue">Adirondack-Blue</option>
+            </select>
+        </section>
+        <section class="email__check" id="email__check">
+            <input type="checkbox" name="email__check" id="email__check"><label for="email__check">Sign up for email updates.</label>
+        </section>
+        <section>
+            <textarea name="message" id="message" cols="20" rows="5"></textarea>
+        </section>
+        <section>
+        <input type="submit" value="Send Now" class="cta">
+        </section>
+    </form>
 </body>
 <footer>Copyright &copy;</footer>
 </html>

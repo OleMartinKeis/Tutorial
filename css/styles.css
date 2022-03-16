@@ -51,6 +51,22 @@ footer {
 
 /* HOME PAGE*/
 
+.logo {
+    text-decoration: none;
+}
+
+li {
+display: inline;
+}
+
+li a {
+    text-decoration-line: none;
+}
+
+.current {
+    font-weight: bold;
+}
+
 .welcome {
     background-image: url("../images/home-header.jpg");
     background-size: cover;
@@ -66,4 +82,10 @@ footer {
 
 .review__images {
     border-radius: 50%;
+}
+
+/* Contact page */
+input, select, textarea {
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
 }
